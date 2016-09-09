@@ -1,0 +1,319 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>百度音乐</title>
+		<meta name="keywords" content="关键词,关键词">
+		<meta name="description" content="">
+	    <link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+    <body>
+    	<!--top start-->
+    	<div class="top">
+    		<div class="t_header">
+    			<div class="t_logo">
+    				<a href="#">
+    					<img src="images/logo.png" alt="潭州教育音乐系统" width="134" height="32" />
+    				</a>
+    			</div>
+    			<div class="t_desc">潭州Music音乐系统</div>
+    		</div>
+    	</div>
+    	<!--end top-->
+
+    	<!--content start-->
+    	<div class="content">
+    		<div class="c_box">
+    			<!--c_select start-->
+    			<div class="c_select">
+    				<div class="c_menu">
+    					<ul>
+    						<li class="c_sel">正在播放</li>
+    						<li>播放历史</li>
+    						<li>收藏列表</li>
+    					</ul>
+    				</div>
+    				<div class="c_add">
+    					<span class="c_mymusic">我创建的精选集</span>
+    					<a href="#" class="c_create"></a>
+    					<div class="c_title"><img src="images/01.png" alt="创建选集提示" width="185" height="89" /></div>
+    				</div>
+    			</div>
+    			<!--end c_select-->
+
+                <!--c_lrc start-->
+                <div class="c_lrc">
+                    <div class="l_img">
+                        <img src="images/mv.jpg" alt="美女" width="185" height="185" />
+                    </div>
+                    <a href="#" class="l_btn">亲亲我 ^_^</a>
+                    <div class="l_con">
+                        <ul id="lyrics"></ul>
+                    </div>
+                </div>
+                <!--end c_lrc-->
+
+    			<!--c_list start-->
+    			<div class="c_list">
+    				<div class="c_music" id="c_music">
+    					<div class="m_title">
+    						<a href="#" class="m_check" id="all_check"><input type="checkbox" /></a>
+    						<div class="m_info">
+    							<div class="m_t">歌曲(30)</div>
+    							<div class="m_t">演唱者</div>
+    							<div class="m_t">专辑</div>
+    						</div>
+    					</div>
+    					<div class="m_song">
+                            <div class="s_list" data-link="mp3/0.mp3">
+                                <p class="l_choose"><input type="checkbox"></p>
+                                <p class="l_number"><span>1</span></p>
+                                <div class="l_info">
+                                    <div class="l_t">相心相爱一家人</div>
+                                    <div class="l_t">群星</div>
+                                    <div class="l_t">《一家人》</div>
+                                </div>
+                                <div class="l_love">
+                                    <a href="#" class="l_icon l_like"></a>
+                                    <a href="#" class="l_icon l_more"></a>
+                                    <a href="#" class="l_icon l_del"></a>
+                                </div>
+                            </div>
+    						<div class="s_list" data-link="mp3/1.mp3">
+    							<p class="l_choose"><input type="checkbox"></p>
+    							<p class="l_number">
+    								<span>2</span>
+    							</p>
+    							<div class="l_info">
+    								<div class="l_t">认真的雪</div>
+    								<div class="l_t">薛之谦</div>
+    								<div class="l_t">《未完成的歌》</div>
+    							</div>
+    							<div class="l_love">
+    								<a href="#" class="l_icon l_like"></a>
+    								<a href="#" class="l_icon l_more"></a>
+    								<a href="#" class="l_icon l_del"></a>
+    							</div>
+    						</div>
+                            <div class="s_list" data-link="mp3/2.mp3">
+                                <p class="l_choose"><input type="checkbox"></p>
+                                <p class="l_number"><span>3</span></p>
+                                <div class="l_info">
+                                    <div class="l_t">年轻的战场</div>
+                                    <div class="l_t">张杰</div>
+                                    <div class="l_t">未知</div>
+                                </div>
+                                <div class="l_love">
+                                    <a href="#" class="l_icon l_like"></a>
+                                    <a href="#" class="l_icon l_more"></a>
+                                    <a href="#" class="l_icon l_del"></a>
+                                </div>
+                            </div>
+                            <div class="s_list" data-link="mp3/3.mp3">
+                                <p class="l_choose"><input type="checkbox"></p>
+                                <p class="l_number"><span>4</span></p>
+                                <div class="l_info">
+                                    <div class="l_t">海阔天空</div>
+                                    <div class="l_t">黄家驹</div>
+                                    <div class="l_t">《光辉岁月》</div>
+                                </div>
+                                <div class="l_love">
+                                    <a href="#" class="l_icon l_like"></a>
+                                    <a href="#" class="l_icon l_more"></a>
+                                    <a href="#" class="l_icon l_del"></a>
+                                </div>
+                            </div>
+    						<div class="s_list" data-link="mp3/4.mp3">
+    							<p class="l_choose"><input type="checkbox"></p>
+    							<p class="l_number"><span>5</span></p>
+    							<div class="l_info">
+    								<div class="l_t">让我一次爱个够</div>
+    								<div class="l_t">群星</div>
+    								<div class="l_t">《中国好声音》</div>
+    							</div>
+    							<div class="l_love">
+    								<a href="#" class="l_icon l_like"></a>
+    								<a href="#" class="l_icon l_more"></a>
+    								<a href="#" class="l_icon l_del"></a>
+    							</div>
+    						</div>
+    						<div class="s_list" data-link="mp3/5.mp3">
+    							<p class="l_choose"><input type="checkbox"></p>
+    							<p class="l_number"><span>6</span></p>
+    							<div class="l_info">
+    								<div class="l_t">撕夜</div>
+    								<div class="l_t">阿杜</div>
+    								<div class="l_t">《天黑》</div>
+    							</div>
+    							<div class="l_love">
+    								<a href="#" class="l_icon l_like"></a>
+    								<a href="#" class="l_icon l_more"></a>
+    								<a href="#" class="l_icon l_del"></a>
+    							</div>
+    						</div>
+    						<div class="s_list" data-link="mp3/6.mp3">
+    							<p class="l_choose"><input type="checkbox"></p>
+    							<p class="l_number"><span>7</span></p>
+    							<div class="l_info">
+    								<div class="l_t">五星红旗迎风飘扬</div>
+    								<div class="l_t">刘媛媛</div>
+    								<div class="l_t">《歌唱祖国》</div>
+    							</div>
+    							<div class="l_love">
+    								<a href="#" class="l_icon l_like"></a>
+    								<a href="#" class="l_icon l_more"></a>
+    								<a href="#" class="l_icon l_del"></a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<!--end c_list-->
+    		</div>
+    	</div>
+    	<!--end content-->
+
+    	<!--player start-->
+    	<div class="player">
+            <!-- start p_left -->
+    		<div class="p_left">
+    			<a href="#" class="p_icon p_pre" title="上一首"></a>
+    			<a href="#" class="p_icon p_play" title="播放"></a>
+    			<a href="#" class="p_icon p_stop" title="暂停"></a>
+    			<a href="#" class="p_icon p_next" title="下一首"></a>
+    			<div class="p_tool">
+    				<a href="#" class="t_t t_list" title="列表循环"></a>
+    				<a href="#" class="t_t t_single" title="单曲循环"></a>
+    				<a href="#" class="t_t t_random" title="随机播放"></a>
+    			</div>
+    		</div>
+            <!-- end p_left -->
+
+            <!-- start p_content -->
+    		<div class="p_content">
+    			<div class="c_name">
+    				<a href="#" class="n_title" id="n_title">相心相爱一家人</a>
+    				<div class="n_group">
+    					<a href="#" class="g_g g_fav"></a>
+    					<a href="#" class="g_g q_share"></a>
+    					<a href="#" class="g_g q_more"></a>
+    				</div>
+    			</div>
+    			<div class="c_time">
+    				<div class="t_left">00:00</div>
+    				<div class="t_center">
+    					<div class="c_played"></div>
+    					<div class="c_current"></div>
+    					<div class="c_futrue"></div>
+    				</div>
+    				<div class="t_right">00:00</div>
+    			</div>
+    		</div>
+            <!-- end p_content -->
+
+            <!-- start p_right -->
+    		<div class="p_right">
+    			<a href="#" class="r_qua">高品质</a>
+    			<div class="r_voice">
+    				<a href="#" class="v_trumpet"></a>
+    				<div class="t_box">
+    					<div class="b_all">
+    						<div class="a_small"></div>
+    						<div class="a_current"></div>
+    						<div class="a_big"></div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+            <!-- end p_right -->
+    	</div>
+    	<!--end player-->
+
+    	<audio id="audio"></audio>
+
+    	<textarea id="lrc">
+            [ti:]
+            [ar:]
+            [al:]
+            [offset:0]
+
+            [00:00.00]歌名：相亲相爱一家人
+            [00:01.16]演唱：群星
+            [00:02.61]
+            [00:03.52]我喜欢一回家
+            [00:07.12]就有暖洋洋的灯光在等待
+            [00:11.23]我喜欢一起床
+            [00:14.59]就看到大家微笑的脸庞
+            [00:18.71]我喜欢一出门
+            [00:21.51]就为了家人和自己的理想打拼
+            [00:25.85]我喜欢一家人
+            [00:27.55]心朝着同一个方向眺望
+            [00:31.58]哦！
+            [00:33.47]我喜欢快乐时
+            [00:36.87]马上就想要和你一起分享
+            [00:40.61]我喜欢受伤时
+            [00:43.98]就想起你们温暖的怀抱
+            [00:48.12]我喜欢生气时
+            [00:51.02]就想到你们永远包容多么伟大
+            [00:55.07]我喜欢旅行时
+            [00:57.08]为你把美好记忆带回家
+            [01:02.45]因为我们是一家人
+            [01:06.42]相亲相爱的一家人
+            [01:09.95]有缘才能相聚
+            [01:11.97]有心才会珍惜
+            [01:13.68]何必让满天乌云遮住眼睛
+            [01:17.45]因为我们是一家人
+            [01:21.19]相亲相爱的一家人
+            [01:24.95]有福就该同享
+            [01:26.59]有难必然同当
+            [01:28.47]用相知相守换地久天长
+            [01:32.61]
+            [01:41.43]我喜欢一回家
+            [01:45.04]就把乱糟糟的心情都忘掉
+            [01:49.03]我喜欢一起床
+            [01:52.40]就带给大家微笑的脸庞
+            [01:56.44]我喜欢一出门
+            [01:59.48]就为了个人和世界的美好打拼
+            [02:03.41]我喜欢一家人
+            [02:05.31]梦朝着同一个方向创造
+            [02:09.44]哦！
+            [02:11.38]当别人快乐时
+            [02:14.50]好像是自己获得幸福一样
+            [02:18.76]当别人受伤时
+            [02:22.04]我愿意敞开最真的怀抱
+            [02:26.11]当别人生气时
+            [02:28.94]告诉他就算观念不同不必激动
+            [02:33.24]当别人需要时
+            [02:35.00]我一定卷起袖子帮助他
+            [02:40.34]因为我们是一家人
+            [02:44.14]相亲相爱的一家人
+            [02:48.01]有缘才能相聚
+            [02:49.72]有心才会珍惜
+            [02:51.55]何必让满天乌云遮住眼睛
+            [02:55.46]因为我们是一家人
+            [02:59.14]相亲相爱的一家人
+            [03:02.84]有福就该同享
+            [03:04.53]有难必然同当
+            [03:06.38]用相知相守换地久天长
+            [03:10.01]
+            [03:11.40]处处为你用心
+            [03:14.11]一直最有默契
+            [03:18.26]请你相信这份感情值得感激
+            [03:28.99]因为我们是一家人
+            [03:32.54]相亲相爱的一家人
+            [03:36.09]有缘才能相聚
+            [03:37.76]有心才会珍惜
+            [03:39.52]何必让满天乌云遮住眼睛
+            [03:43.34]因为我们是一家人
+            [03:47.10]相亲相爱的一家人
+            [03:50.55]有福就该同享
+            [03:52.60]有难必然同当
+            [03:54.23]用相知相守换地久天长
+            [04:02.43]
+    	</textarea>
+
+        <!--引入jQuery官方类库-->
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
