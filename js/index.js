@@ -221,8 +221,12 @@ $(function(){
 
     // 播放音乐的方法
     function playMusic(playIndex){
-        // 加载歌词
-        loadLrc(playIndex);
+        if (playIndex>=1) {
+            $("#listbox").html("<b>暂无歌词</b>");
+        }else{
+            // 加载歌词
+            loadLrc(playIndex);
+        }
         // 播放音乐
         audioDom.play();
         // 播放暂停按钮切换
